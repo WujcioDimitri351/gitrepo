@@ -3,13 +3,9 @@
 
 
 def main(args):
-    a = input ('Podaj liczbę:')
-    b = input ('Podaj liczbę:')
-    if a > b:
-        print(a)
-    else:
-        print(b)
-    
+     a = 10
+     b=5
+    print(a + b)
     return 0
 
 if __name__ == '__main__':
