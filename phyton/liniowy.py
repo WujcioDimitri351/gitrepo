@@ -3,12 +3,14 @@
 
 
 def main(args):
-    a = input ('Podaj liczbę:')
-    b = input ('Podaj liczbę:')
+    a = int(input('Podaj liczbę:'))
+    b = int(input('Podaj liczbę:'))
     if a > b:
-        print(a)
+        print('a>b')
+    elif a<b:
+        print('b>a')
     else:
-        print(b)
+        print('b = a')
     
     return 0
 
