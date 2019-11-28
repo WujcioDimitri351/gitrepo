@@ -25,9 +25,27 @@
 #include <iostream>
 using namespace std;
 
-int main(int argc, char **argv)
-{
-	
+int main(int argc, char **argv) {
+    cout << "Witaj w C++";
+    float x;
+    int b;
+    int a;
+    cout << "Podaj liczbę a:";
+    cin >> a;
+    cout << "Podaj liczbę b:";
+    cin >> b;
+    if(a == 0) {
+        if(b == 0) {
+            cout << "Nieskączenie wiele rozwiązań";
+        }else {
+            cout <<"Równanie sprzeczne";
+        }
+        
+    }else{
+        x = -b / (float)a;
+        cout << x;
+    }
+    
 	return 0;
 }
 
